@@ -3,7 +3,7 @@
 /* Generico */
 
 body{
-    font-family:'Manrope', sans-serif;
+    font-family:font-family: 'Epilogue', sans-serif;
 }
 
 .btn {
@@ -53,7 +53,30 @@ body{
 
 /* HERO SECTION */
 
-.hero-text__title{
-    font-size: 58px;
+#hero-container{
+    background-color: #0b090a;
+    color: #ffffff;
+    }
+
+.hero{
+        display:flex;
+        align-items: center ;
+    }
+.hero-text, .hero-img {
+    flex: 1;
 }
 
+.hero-img img {
+    max-width: 100%;
+}
+
+.hero-text__title{
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 700;
+}
+
+.hero-text__subtitle{
+    font-size: 20px;
+    line-height: 28px;
+}
