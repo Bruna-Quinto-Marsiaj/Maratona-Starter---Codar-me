@@ -118,6 +118,8 @@ text-transform: uppercase;
 
 .services-list {
     margin-top: 48px;
+    display: flex;
+    gap: 32px;
 }
 
 .service-card{
@@ -126,7 +128,7 @@ text-transform: uppercase;
 }
 
 .service-card img{
-    max-height: 100%;
+    width: 100%;
 }
 
 .service-card__text{
@@ -143,4 +145,21 @@ text-transform: uppercase;
 .service-card__text p{
     font-size: 16px ;
     line-height: 24px;
+}
+
+/*LOCATION SECTION */
+
+#location-container{
+    background-color: #f5f3f4;
+    padding: 48px 72px 0;
+}
+
+#location-container header{
+    padding: 48px;
+}
+
+#location-container address{
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
